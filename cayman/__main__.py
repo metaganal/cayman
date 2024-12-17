@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 def main():
 
     args = handle_args(sys.argv[1:])
-    if args.cutoffs is None:
+    if args[2 == 'annotate_proteome' and args.cutoffs is None:
         args.cutoffs = os.path.join(args.hmmdb, "cutoffs.csv")
     args.aligner = "bwa"
 
